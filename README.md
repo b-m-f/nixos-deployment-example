@@ -85,3 +85,6 @@ To everyone working on the projects involved. This mix has become such a timesav
 I am very grateful for all the work and creativity that the developers and maintainers have poured into the Nix ecosystem.
 
 Simply amazing.
+
+# Questions
+Just put any question into a new Github issue. I'll try to answer them as best as I can and will comment the code accordingly to make it easier to digest for newcomers.
