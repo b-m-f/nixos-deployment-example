@@ -1,7 +1,7 @@
 # Server on Hetzner
 resource "hcloud_ssh_key" "default" {
   name       = "Deploy key colmena-test"
-  #TODO: Change to path to our ssh key
+  #TODO: Change to path of your ssh key
   public_key = file("~/.ssh/ssh-key.pub")
 }
 
