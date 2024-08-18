@@ -44,7 +44,7 @@ The server is now up and running in its Barebones config -> SSH only.
 
 ## Deploy final configuration
 
-- Commit all your changes with git (`.gitignore` make sure not secrets are
+- Commit all your changes with git (`.gitignore` makes sure no secrets are
   commited)
 - Deploy with `colmena apply` - the created WireGuard configs are already
   imported in `vps.nix`
