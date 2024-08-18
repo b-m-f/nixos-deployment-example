@@ -1,0 +1,22 @@
+[network]
+name = "example"
+type = "web"
+cidrv4 = "10.0.0.0/24"
+
+[servers]
+[servers.server]
+ip = "10.0.0.1"
+listenport = 20202
+# TODO: Add the IPv4 here
+endpoint = ""
+persistentkeepalive = 5
+output = "nix"
+encryption = "colmena:pass"
+
+[clients]
+[clients.wg-quick]
+ip = "10.0.0.2"
+[clients.qr]
+ip = "10.0.0.3"
+output = "qr"
+

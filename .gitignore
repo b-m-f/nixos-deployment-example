@@ -1,0 +1,5 @@
+.direnv
+flake.lock
+wired/**/*.*
+!wired/**/*.nix
+*.statefile
